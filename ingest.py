@@ -35,7 +35,7 @@ def fetch_binance_data(symbols, interval, start_time, end_time):
         klines = {}
 
         for kline in tqdm(client.get_historical_klines(
-            symbol, interval, start_time_ms, end_time_ms, limit=25)):
+            symbol, interval, start_time_ms, end_time_ms, limit=20)):
             timestamp = kline[0]
 
             klines[timestamp] = {
