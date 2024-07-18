@@ -1,3 +1,14 @@
 .env
 *.json
 *.txt
+
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate.*
+
+# Ignore variable files with sensitive data
+*.tfvars
+
+# Ignore Terraform cache
+.terraform/
