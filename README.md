@@ -1,2 +1,2 @@
 # binance-data-project
-A data engineering project as part of the Data Engineering program organized by Trestle Academy Ghana
+A project for cryptocurrency enthusiast to enable them make decisions on what coins to invest in using historical market research.
